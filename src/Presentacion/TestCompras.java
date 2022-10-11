@@ -17,6 +17,7 @@ public class TestCompras {
         Oferta arroz = new Oferta(10,40, 1000, 2, "grado 2");
         
         Coleccion col = new Coleccion();
+        
         col.agregarProducto(fideo);
         col.agregarProducto(cerveza);
         col.agregarProducto(helado);

@@ -36,7 +36,7 @@ public class Oferta extends Producto{
         int totalDesc = total * this.getDescuento()/100;
         int totalPag = total - totalDesc;
                 
-        return totalPag;
+        return totalDesc;
         
     }
     
